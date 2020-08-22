@@ -1,27 +1,6 @@
-@font-face {
-    font-family: 'NK57';
-    src: url('fonts/NK57.woff2') format('woff2'),
-        url('fonts/NK57.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Cursor Apple';
-    src: url('fonts/Cursor-Apple.woff2') format('woff2'),
-        url('fonts/Cursor-Apple.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
 body {
     background: black;
     font-family: 'NK57';
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
 }
 
 h2 {

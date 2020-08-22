@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'PT Mono';
+    src: url('fonts/PTMono-Regular.woff') format('woff'),
+    url('fonts/PTMono-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PT Mono';
+    src: url('fonts/PTMono-Bold.woff2') format('woff2'),
+        url('fonts/PTMono-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NK57';
+    src: url('fonts/NK57.woff2') format('woff2'),
+        url('fonts/NK57.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PartnerBlack';
+    src: url('fonts/PartnerBlack.woff2') format('woff2'),
+        url('fonts/PartnerBlack.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cursor Apple';
+    src: url('fonts/Cursor-Apple.woff2') format('woff2'),
+        url('fonts/Cursor-Apple.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
