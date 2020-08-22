@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'NK57';
+    src: url('fonts/NK57.woff2') format('woff2'),
+        url('fonts/NK57.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Cursor Apple';
+    src: url('fonts/Cursor-Apple.woff2') format('woff2'),
+        url('fonts/Cursor-Apple.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body {
+    background: black;
+    font-family: 'NK57';
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+h2 {
+    position: absolute;
+    width: 1311px;
+    height: 99px;
+    left: 64px;
+    top: 152px;
+    font-size: 100px;
+    line-height: 99px;
+    font-feature-settings: 'hist' on;
+    color: #E5E5E5;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+h1 {
+    position: absolute;
+    width: 1390px;
+    height: 407px;
+    left: 25px;
+    top: 251px;
+    font-size: 410px;
+    line-height: 407px;
+    color: #001AFF;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.menu {
+    position: absolute;
+    width: 119px;
+    height: 90px;
+    left: 130px;
+    top: 264px;
+    font-size: 20px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #001AFF;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.instagram {
+    position: absolute;
+    width: 293px;
+    height: 50px;
+    left: 1112px;
+    top: 585px;
+    font-size: 50px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #001AFF;
+    margin: 0;
+}
+
+.cursors {
+    position: absolute;
+    width: 1443px;
+    height: 72px;
+    left: -3px;
+    top: 639px;
+    font-family: 'Cursor';
+    font-size: 60px;
+    line-height: 72px;
+    text-transform: uppercase;
+    color: #E5E5E5;
+    margin: 0;
+}
