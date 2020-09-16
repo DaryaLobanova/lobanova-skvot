@@ -1,0 +1,39 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    max-height: 100vh;
+    background: rgb(224, 224, 224);
+}
+
+.zine-stroka {
+    font-family: PT Mono;
+    font-size: 14px;
+    line-height: 3vh;
+    letter-spacing: 0.25em;
+    text-transform: uppercase; 
+    margin: 0 auto;
+}
+
+.teaser-text-1 {
+    font-family: PT Mono;
+    font-size: 11vh;
+    line-height: 14vh;
+    margin: 0 auto;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    position: relative;
+    top: 16vh;
+}
+
+.backtoluxus {
+    width: 10vw;
+    position: relative;
+    top: 18vh;
+    left: 88vw;
+
+}
