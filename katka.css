@@ -120,17 +120,37 @@ body {
     }
 
 .stroka-katka {
+    width:100%;
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+.stroka-katka span {
     font-family: PT Mono;
     font-size: 14px;
     line-height: 3vh;
     letter-spacing: 0.25em;
     text-transform: uppercase; 
     margin: 0 auto;
+    animation: marquee 10s linear infinite;
+    display:inline-block;
     }
+
+@keyframes marquee {
+    to {
+    transform: translateX(calc(-100% / 4));
+    }
+}
 
 .katka-logo {
     position: relative;
     top: 15px;
+    animation: rotation 5s linear 0s infinite;
+    }
+
+@keyframes rotation {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
     }
 
 .first-bordshop {

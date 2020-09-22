@@ -10,13 +10,27 @@ body {
 }
 
 .zine-stroka {
+    width:100%;
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+.zine-stroka div {
     font-family: PT Mono;
     font-size: 14px;
     line-height: 3vh;
     letter-spacing: 0.25em;
     text-transform: uppercase; 
     margin: 0 auto;
+    animation: marquee 10s linear infinite;
+    display:inline-block;
 }
+
+@keyframes marquee {
+    to {
+    transform: translateX(calc(-100% / 4));
+    }
+  }
 
 .teaser-text-1 {
     font-family: PT Mono;

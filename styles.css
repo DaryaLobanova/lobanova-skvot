@@ -82,9 +82,13 @@ body {
     padding: 20px;
     align-self: center;
     text-align: center;
-    
-    
 }
+
+.cookies-thanks:hover {
+    background-color: #001AFF;
+    color: white;
+}
+
 .cookies-text {
     font-family: 'PT Sans Caption';
     text-transform: uppercase;
@@ -99,12 +103,26 @@ body {
 }
 
 .stroka-luxus {
+    width:100%;
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+.stroka-luxus div {
     font-family: PT Mono;
     font-size: 14px;
     line-height: 18px;
     letter-spacing: 0.25em;
     text-transform: uppercase;
+    animation: marquee 10s linear infinite;
+    display:inline-block;
 }
+  
+  @keyframes marquee {
+    to {
+    transform: translateX(calc(-100% / 4));
+    }
+  }
 
 .posters-grid {
     display: grid;
