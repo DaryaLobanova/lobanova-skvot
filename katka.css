@@ -12,6 +12,35 @@ body {
     margin: 0 auto;
 }
 
+.luxus-button {
+    width: 3rem;
+    background-color: rgb(37, 37, 37);;
+    height: 100vh;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 2.4rem;
+    font-size: 1.8rem;
+    display: flex;
+    font-family: 'PT Mono';
+    text-transform: uppercase;
+    border-right: 1px solid black;
+    text-decoration: none;
+}
+
+.luxus-button:hover {
+    background-color: #001AFF;
+    color: rgb(224, 224, 224);
+}
+
+.luxus-button-text {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    justify-self: center;
+    color: rgb(224, 224, 224);
+}
+
 .katka-grid {
     display: grid;
     grid-template-columns: repeat(6, 1fr);

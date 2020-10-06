@@ -1,0 +1,88 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+html {
+    font-size: calc(10 / 1440 * 100vw);
+  }
+
+body {
+    background: rgb(224, 224, 224);
+}
+
+.biggrid {
+    display: flex;
+    height: 95vh;
+    width: 100vw;
+    border: 1px solid black;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.preview {
+    overflow: auto;
+    align-content: center;
+    justify-items: center;
+}
+
+.col-1 {
+    width: calc(1 / 8 * 100vw);
+    text-align: center;
+    justify-self: center;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+  }
+  
+.col-2 {
+    width: calc(2 / 8 * 100vw);
+    /* border-right: 1px solid black; */
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+  }
+  
+.col-3 {
+    width: calc(2 / 8 * 100vw);
+    padding-top: 2rem;
+  }
+
+.active-div {
+    background-color: rgb(196, 196, 196)
+}
+
+.img-preview {
+    object-fit: contain;
+    object-position: center;
+    width: 120px;
+    margin: 2rem;
+    /* border: 1px solid black; */
+}
+
+.img-bigposter {
+    object-fit: contain;
+    object-position: center;
+    width: 30rem;
+}
+
+.poster-name {
+    font-family: PT Mono;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.25em;
+}
+
+.poster-text {
+    font-family: PT Mono;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.115em;
+}
+
+p + p {
+    margin-top: 1rem;
+}

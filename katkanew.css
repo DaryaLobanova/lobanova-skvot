@@ -1,0 +1,245 @@
+html {
+    font-size: calc(10 / 1440 * 100vw);
+    font-family: 'PT Mono';
+    
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: rgb(37, 37, 37);
+    background: rgb(224, 224, 224);
+}
+
+
+.katka-screen {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.luxus-button {
+    width: 5rem;
+    background-color: rgb(37, 37, 37);;
+    height: 100vh;
+    align-self: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 4rem;
+    font-size: 3rem;
+    display: flex;
+    font-family: 'PT Mono';
+    text-transform: uppercase;
+    border-right: 1px solid black;
+    text-decoration: none;
+    
+}
+
+.luxus-button:hover {
+    background-color: #001AFF;
+    color: rgb(224, 224, 224);
+}
+
+.luxus-button-text {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    justify-self: center;
+    color: rgb(224, 224, 224);
+    
+}
+
+.stroka-katka {
+    display: flex;
+    width: 139rem;
+    white-space:nowrap;
+    overflow:hidden;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.stroka-katka div {
+    font-family: PT Mono;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    letter-spacing: 0.25em;
+    text-transform: uppercase; 
+    margin: 0 auto;
+    animation: marquee 10s linear infinite;
+    display: flex;
+    }
+
+@keyframes marquee {
+    to {
+    transform: translateX(calc(-100% / 4));
+    }
+}
+
+.katka-logo {
+    display: flex;
+    width: 139.1rem;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+}
+
+.katka-letters {
+    width: 22.3rem;
+    height: 22.3rem;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    font-family: 'PartnerBlack';
+    color: #001AFF;
+    font-size: 23rem;
+    text-transform: uppercase;
+    margin: 0;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    line-height: 26rem;
+}
+
+.katka-letters-2 {
+    display: flex;
+    margin: 0;
+    width: 27.3rem;
+    height: 22.3rem;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.katka-description {
+    width: 44.6rem;
+    height: 50rem;
+    /* width: 34vw; */
+}
+
+.katka-description-1 {
+    width: 41rem;
+    /* width: 30.15vw; */
+    display: flex;
+    padding: 2.8rem 1.8rem;
+    /* padding-top: 1.5vw;
+    padding-left: 1.5vw; */
+    border-bottom: 1px solid black;
+    height: 19.55rem;
+    /* height: 22vh; */
+    border-right: 1px solid black;
+}
+
+.first-boardshop {
+    display: flex;
+    font-family: PT Mono;
+    font-size: 3.75rem;
+    line-height: 4rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.shop-items {
+    font-family: PT Mono;
+    font-size: 0.8rem;
+    line-height: 0.9rem;
+    text-align: right;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    }
+
+.katka-description-2 {
+    display: flex;
+    /* height: 16rem; */
+    width: 51rem;
+    /* height: 20vh; */
+}
+
+.katka-description-fr {
+    width: 18.65rem;
+    /* width: 13.8vw; */
+    padding: 1.8rem;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.katka-text {
+    font-family: PT Mono;
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.safespace {
+    font-family: PT Mono;
+    font-size: 4rem;
+    line-height: 4.5rem;
+    text-transform: uppercase;
+    color: #001AFF;
+    text-align: left;
+    letter-spacing: 0.2em;
+    }
+
+.katka-description-3 {
+    display: flex;
+    /* height: 20vh; */
+    height: 14.5rem;
+    width: 51rem;
+    /* width: 46vw; */
+    font-family: PT Mono;
+    font-size: 2.4rem;
+    line-height: 3rem;
+    text-align: center;
+    letter-spacing: 0.385em;
+    text-transform: uppercase;
+    color:  #001AFF;
+}
+
+#spotify-hover:hover {
+    background-color: #001AFF;
+    color: rgb(224, 224, 224);
+}
+
+.katka-description-fr2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18.65rem;
+    /* width: 13.3vw; */
+    padding: 1.8rem;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.afisha {
+    width: 92.4rem;
+    /* width: 62vw; */
+    height: 54.2rem;
+    /* height: 62vh; */
+    padding-top: 2.2rem;
+    padding-left: 2rem;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.description-afisha {
+    display: flex;
+    height: 75rem;
+}
+
+.afisha-images {
+    display: flex;
+    overflow: auto;
+    margin-right: 2rem;
+}
+
+.afisha-image {
+    display: flex;
+    width: 32rem;
+    margin-right: 4rem;
+}
