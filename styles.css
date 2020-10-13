@@ -26,6 +26,7 @@ body {
     height: 100vh;
     }
 
+
     .logo-div {
         font-size: 25rem;
     }
@@ -284,6 +285,14 @@ body {
     width: 30vw;
 }
 
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
 .poster-name {
     font-family: PT Mono;
     font-size: 16px;
@@ -317,20 +326,26 @@ p + p {
         overflow: auto;}
     
     .slider-item {
-        overflow: visible;
-        width: 500rem;
+        overflow: auto;
+        min-width: 110rem;
         padding: 8rem;
         display: flex;
+        align-items: center;
         flex-direction: column;
         border-right: 1px solid black;}
     
     .img-slider {
         /* height: 140rem; */
-        width: 100rem;}
+        width: 100rem;
+    }
+
+    .img-slider + .img-slider {
+        margin-top: 8rem;
+    }
     
     .text-slider {
         width: 100rem;
-        font-size: 4rem;}
+        font-size: 6rem;}
     }
 
 /* .posters-grid {

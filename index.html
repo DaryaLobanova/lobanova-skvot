@@ -7,7 +7,11 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"> -->
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="fonts.css">
-    
+    <meta property="og:title" content="LUXUS">
+    <meta property="og:description" content="Независимая арт-ячейка">
+    <meta property="og:image" content="https://daryalobanova.github.io/lobanova-skvot/images/og-image.jpg">
+    <meta property="og:url" content="https://daryalobanova.github.io/lobanova-skvot/">
+    <link rel="shortcut icon" href="images/favicon.jpg">
 </head>
 <body>
     <div class="parent_logo">
@@ -45,9 +49,9 @@
         <div class="biggrid">
             <div class="preview">
                 <div class="row">
-                    <div class="col-1"><img src="images/anarchy.jpg" class="img-preview" alt=""></div>
-                    <div class="col-1"><img src="images/DADA.jpg" class="img-preview" alt=""></div>
-                    <div class="col-1"><img src="images/punk.jpg" class="img-preview" alt=""></div>
+                    <div class="col-1" ><img src="images/anarchy.jpg" class="img-preview" alt=""></div>
+                    <div class="col-1" id="dada"><img src="images/DADA.jpg" class="img-preview" alt=""></div>
+                    <div class="col-1" id="punk"><img src="images/punk.jpg" class="img-preview" alt=""></div>
                 </div>
                 <div class="row">
                     <div class="col-1"><img src="images/Portfolio.jpg" class="img-preview" alt=""></div>
@@ -70,7 +74,8 @@
                 <p class="poster-text">Немного о патологически сбитом фокусе внимания, обсессии, переживаниях о другом больше, чем о себе, превращение всех предметов и песен в ТЫ. Поразительно, как часто, говоря о себе, мы употребляем именно это местоимение.</p>
             </div>
             <div class="col-3">
-                <img src="images/you.jpg" class="img-bigposter" alt="">
+                <img src="images/you.jpg" class="img-bigposter" id="you" alt="">
+                <img src="images/anarchy.jpg" class="img-bigposter" id="anarchy" alt="">
             </div>
         </div>
 
@@ -97,7 +102,9 @@
             </div>
             <div class="slider-item">
                 <img src="images/Portfolio.jpg" alt="" class="img-slider">
-                <p class="text-slider">NONEXISTENT PORTFOLIO<br>No, you can’t put there all your traumas, tears and failures. Sometimes it’s easier to make a fake one, right?<br>2020</p>
+                <img src="images/my portfolio.jpg" class="img-slider" alt="">
+                <img src="images/my portfolio 2.jpg" alt="" class="img-slider">
+                <p class="text-slider">NONEXISTENT PORTFOLIO<br>2020<br>No, you can’t put there all your traumas, tears and failures. Sometimes it’s easier to make a fake one, right?</p>
             </div>
             <div class="slider-item">
                 <img src="images/uiuxcourses.png" alt="" class="img-slider">
@@ -136,5 +143,15 @@
         >INSTAGRAM</a>
     </div>
 
+<script>
+    document.querySelectorAll(".img-preview")
+        .addEventListener('click', function () {
+            document.querySelectorAll(".img-bigposter").forEach(function (preview) {
+                if  (preview.classList.contains("#anarchy")) {
+                    preview.classList.add(".visible");
+                    preview.classList.remove(".hidden")}
+        });
+    });      
+</script>
 </body>
 </html>
