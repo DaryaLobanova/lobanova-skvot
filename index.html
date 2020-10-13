@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LUXUS</title>
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"> -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-2.css">
     <link rel="stylesheet" href="fonts.css">
     <meta property="og:title" content="LUXUS">
     <meta property="og:description" content="Независимая арт-ячейка">
     <meta property="og:image" content="https://daryalobanova.github.io/lobanova-skvot/images/og-image.jpg">
     <meta property="og:url" content="https://daryalobanova.github.io/lobanova-skvot/">
     <link rel="shortcut icon" href="images/favicon.jpg">
+
 </head>
 <body>
     <div class="parent_logo">
@@ -49,19 +50,37 @@
         <div class="biggrid">
             <div class="preview">
                 <div class="row">
-                    <div class="col-1" ><img src="images/anarchy.jpg" class="img-preview" alt=""></div>
-                    <div class="col-1" id="dada"><img src="images/DADA.jpg" class="img-preview" alt=""></div>
-                    <div class="col-1" id="punk"><img src="images/punk.jpg" class="img-preview" alt=""></div>
+                    <div class="col-1">
+                        <a class="img-link" href="#anarchy"><img src="images/anarchy.jpg" class="img-preview" alt=""></a>
+                    </div>
+                    <div class="col-1">
+                        <a class="img-link" href="#DADA"><img src="images/DADA.jpg" class="img-preview" alt=""></a>
+                    </div>
+                    <div class="col-1">
+                        <a class="img-link" href="#punk"><img src="images/punk.jpg" class="img-preview" alt=""></a>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="col-1"><img src="images/Portfolio.jpg" class="img-preview" alt=""></div>
-                    <div class="col-1 active-div"><img src="images/you.jpg" class="img-preview" alt=""></div>
-                    <div class="col-1"><img src="images/yearn.jpg" class="img-preview" alt=""></div>
+                    <div class="col-1">
+                        <a class="img-link" href="#portfolio"><img src="images/Portfolio.jpg" class="img-preview" alt=""></a>
+                    </div>
+                    <div class="col-1">
+                        <a class="img-link" href="#you"><img src="images/you.jpg" class="img-preview" alt=""></a>
+                    </div>
+                    <div class="col-1">
+                        <a class="img-link" href="#yearn"><img src="images/yearn.jpg" class="img-preview" alt=""></a>
+                    </div>
                 </div>
                 <div class="row">
-                    <div class="col-1"><img src="images/anxiety.gif" class="img-preview" alt=""></div>
-                    <div class="col-1"><img src="images/experience.jpg" class="img-preview" alt=""></div>
-                    <div class="col-1"><img src="images/uiuxcourses.png" class="img-preview" alt=""></div>
+                    <div class="col-1">
+                        <a class="img-link" href="#anxiety"><img src="images/anxiety.gif" class="img-preview" alt=""></a>
+                    </div>
+                    <div class="col-1">
+                        <a class="img-link" href="#experience"><img src="images/experience.jpg" class="img-preview" alt=""></a>
+                    </div>
+                    <div class="col-1">
+                        <a class="img-link" href="#uiuxcourses"><img src="images/uiuxcourses.png" class="img-preview" alt=""></a>
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col-1"><img src="images/katkaposter1.png" class="img-preview" alt=""></div>
@@ -69,13 +88,90 @@
                     <div class="col-1"></div>
                 </div>
             </div>
-            <div class="col-2">
-                <p class="poster-name">АЛФАВИТ<br>2020</p>
-                <p class="poster-text">Немного о патологически сбитом фокусе внимания, обсессии, переживаниях о другом больше, чем о себе, превращение всех предметов и песен в ТЫ. Поразительно, как часто, говоря о себе, мы употребляем именно это местоимение.</p>
+            <div class="gallery">
+                <div id="anarchy" class="gallery-item active">
+                    <div class="col-2">
+                        <p class="poster-name">ANARCHY|DADA|PUNK triptych. Pt. 1: ANARCHY<br>2019</p>
+                        <p class="poster-text"></p>
+                    </div>
+                    <div class="col-3">
+                        <img src="images/anarchy.jpg" class="img-bigposter" alt="">
+                    </div>
+                </div>
+                <div id="DADA" class="gallery-item">
+                    <div class="col-2">
+                        <p class="poster-name">ANARCHY|DADA|PUNK triptych. Pt. 2: DADA<br>2019</p>
+                        <p class="poster-text"></p>
+                    </div>
+                    <div class="col-3">
+                        <img src="images/DADA.jpg" class="img-bigposter" alt="">
+                    </div>
+                </div>
+                <div id="punk" class="gallery-item">
+                    <div class="col-2">
+                        <p class="poster-name">ANARCHY|DADA|PUNK triptych. Pt. 3: PUNK<br>2019</p>
+                        <p class="poster-text"></p>
+                    </div>
+                    <div class="col-3">
+                        <img src="images/punk.jpg" class="img-bigposter" alt="">
+                    </div>
+                </div>
+                <div id="portfolio" class="gallery-item">
+                    <div class="col-2">
+                        <p class="poster-name">NONEXISTENT PORTFOLIO<br>2020</p>
+                        <p class="poster-text">No, you can’t put there all your traumas, tears and failures. Sometimes it’s easier to make a fake one, right?</p>
+                    </div>
+                    <div class="col-3">
+                        <img src="images/Portfolio.jpg" class="img-bigposter" alt="">
+                    </div>
+                </div>
+                <div id="you" class="gallery-item">
+                    <div class="col-2">
+                        <p class="poster-name">АЛФАВИТ<br>2020</p>
+                        <p class="poster-text">Немного о патологически сбитом фокусе внимания, обсессии, переживаниях о другом больше, чем о себе, превращение всех предметов и песен в ТЫ. Поразительно, как часто, говоря о себе, мы употребляем именно это местоимение.</p>
+                    </div>
+                    <div class="col-3">
+                        <img src="images/you.jpg" class="img-bigposter" alt="">
+                    </div>
+                </div>
+                <div id="yearn" class="gallery-item">
+                    <div class="col-2">
+                        <p class="poster-name">YEARN<br>2020</p>
+                        <p class="poster-text">Act of sublimation is always better than act of self-destruction. Take care of yourself.</p>
+                    </div>
+                    <div class="col-3">
+                        <img src="images/yearn.jpg" class="img-bigposter" alt="">
+                    </div>
+                </div>
+                <div id="anxiety" class="gallery-item">
+                    <div class="col-2">
+                        <p class="poster-name">ANXIETY.gif<br>2019</p>
+                        <p class="poster-text">Сублимация замкнутого круга из стресса и тревожности, которая сопровождает с момента пробуждения до глубокой ночи. Состояние, которое невозможно ни с чем спутать. Дергающаяся нога, от которой скрипит стул. Желудок, постоянно сведенный спазмом. Неприятный озноб на грани с жаром. Навязчивые мысли. Внутреннее животное загнано в угол.</p>
+                    </div>
+                    <div class="col-3">
+                        <img src="images/anxiety.gif" class="img-bigposter" alt="">
+                    </div>
+                </div>
+                <div id="experience" class="gallery-item">
+                    <div class="col-2">
+                        <p class="poster-name">НЕИЗБЕЖНОЕ ОБНОВЛЕНИЕ<br>2020</p>
+                        <p class="poster-text"></p>
+                    </div>
+                    <div class="col-3">
+                        <img src="images/experience.jpg" class="img-bigposter" alt="">
+                    </div>
+                </div>
+                <div id="uiuxcourses" class="gallery-item">
+                    <div class="col-2">
+                        <p class="poster-name">КУРСЫ UI/UX<br>2020</p>
+                        <p class="poster-text"></p>
+                    </div>
+                    <div class="col-3">
+                        <img src="images/uiuxcourses.png" class="img-bigposter" alt="">
+                    </div>
+                </div>
             </div>
-            <div class="col-3">
-                <img src="images/you.jpg" class="img-bigposter" id="you" alt="">
-            </div>
+
         </div>
 
         <div class="works-slider">
@@ -101,9 +197,7 @@
             </div>
             <div class="slider-item">
                 <img src="images/Portfolio.jpg" alt="" class="img-slider">
-                <img src="images/my portfolio.jpg" class="img-slider" alt="">
-                <img src="images/my portfolio 2.jpg" alt="" class="img-slider">
-                <p class="text-slider">NONEXISTENT PORTFOLIO<br>2020<br>No, you can’t put there all your traumas, tears and failures. Sometimes it’s easier to make a fake one, right?</p>
+                <p class="text-slider">NONEXISTENT PORTFOLIO<br>No, you can’t put there all your traumas, tears and failures. Sometimes it’s easier to make a fake one, right?<br>2020</p>
             </div>
             <div class="slider-item">
                 <img src="images/uiuxcourses.png" alt="" class="img-slider">
@@ -142,15 +236,6 @@
         >INSTAGRAM</a>
     </div>
 
-<script>
-    document.querySelectorAll(".img-preview")
-        .addEventListener('click', function () {
-            document.querySelectorAll(".img-bigposter").forEach(function (preview) {
-                if  (preview.classList.contains("#anarchy")) {
-                    preview.classList.add(".visible");
-                    preview.classList.remove(".hidden")}
-        });
-    });      
-</script>
+    <script src="script-2.js"></script>
 </body>
 </html>
