@@ -39,7 +39,7 @@ body {
     
 }
 
-@media (max-width: 834px) {
+@media (max-width: 1024px) {
     .luxus-button {
         display: none;
     }
@@ -61,7 +61,7 @@ body {
     text-decoration: none;
 }
 
-@media (max-width: 834px) {
+@media (max-width: 1024px) {
     .luxus-button-2 {
         display: none;
     }
@@ -70,13 +70,19 @@ body {
 .menu-t {
     width: 100vw;
     background-color: #121212;
-    height: 8.5rem;
+    height: 13rem;
     display: flex;
 }
 
-@media (min-width: 835px) {
+@media (min-width: 1025px) {
     .menu-t {
         display: none;
+    }
+}
+
+@media (max-width: 414px) {
+    .menu-t {
+        height: 50px;
     }
 }
 
@@ -97,6 +103,12 @@ body {
     text-decoration: none;
 }
 
+@media (max-width: 414px){
+    .menu-t-luxus {
+        font-size: 12px;
+    }
+}
+
 .menu-t-2 {
     display: flex;
     align-items: center;
@@ -111,6 +123,12 @@ body {
     text-transform: uppercase;
     color: #1DB954;
     text-decoration: none;
+}
+
+@media (max-width: 414px){
+    .menu-t-spotify {
+        font-size: 12px;
+    }
 }
 
 .luxus-button:hover {
@@ -137,7 +155,7 @@ body {
     border-right: 1px solid black;
 }
 
-@media (max-width: 834px) {
+@media (max-width: 1024px) {
     .stroka-katka {
         width: 100vw;
         border-right: none;
@@ -155,10 +173,17 @@ body {
     display: flex;
     }
 
-@media (max-width: 834px) {
+@media (max-width: 1024px) {
     .stroka-katka div {
     font-size: 2.4rem;
     line-height: 4rem;
+    }
+}
+
+@media (max-width: 414px) {
+    .stroka-katka div {
+        font-size: 6rem;
+        line-height: 9rem;
     }
 }
 
@@ -178,7 +203,7 @@ body {
     justify-items: center;
 }
 
-@media (max-width: 834px) {
+@media (max-width: 1024px) {
     .katka-logo {
         width: 100vw;
         border-left: 1px solid black;
@@ -201,9 +226,18 @@ body {
     line-height: 26rem;
 }
 
-@media (max-width: 834px) {
+@media (max-width: 1024px) {
     .katka-letters {
         width: 16.6vw;
+    }
+}
+
+@media (max-width: 414px) {
+    .katka-letters {
+        width: 25vw;
+        font-size: 27rem;
+        height: 30rem;
+        line-height: 35rem;
     }
 }
 
@@ -216,12 +250,19 @@ body {
     border-right: 1px solid black;
 }
 
+@media (max-width: 414px) {
+    .katka-letters-2 {
+        display: none;
+    }
+}
+
 .katka-description {
     width: 44.6rem;
+    border-left: 1px solid black;
     /* max-height: 50rem; */
 }
 
-@media (max-width:834px) {
+@media (max-width:1024px) {
     .katka-description {
         width: 100vw;
     }
@@ -232,10 +273,25 @@ body {
     display: flex;
     padding: 2.8rem 1.8rem;
     border-bottom: 1px solid black;
-    height: 19.55rem;
     border-right: 1px solid black;
+    height: 19.55rem;
+    
 }
 
+@media (max-width:1024px) {
+    .katka-description-1 {
+        height: 40rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+}
+
+@media (max-width: 414px) {
+    .katka-description-1 {
+        height: 50rem;
+        padding-left: 3.5rem;
+    }
+}
 
 
 .first-boardshop {
@@ -248,6 +304,21 @@ body {
     text-align: left;
 }
 
+@media (max-width:1024px) {
+    .first-boardshop {
+        font-size: 9rem;
+        line-height: 10rem;
+        margin-right: auto;
+    }
+}
+
+@media (max-width: 414px){
+    .first-boardshop {
+        font-size: 11rem;
+        line-height: 12rem;
+    }
+}
+
 .shop-items {
     font-family: PT Mono;
     font-size: 0.8rem;
@@ -257,14 +328,36 @@ body {
     text-transform: uppercase;
     }
 
+@media (max-width:1024px) {
+    .shop-items {
+        font-size: 3rem;
+        line-height: 4rem;
+        margin-left: auto;
+    }
+}
+
+@media (max-width: 414px) {
+    .shop-items {
+        font-size: 4rem;
+        line-height: 5rem;
+    }
+}
+
 .katka-description-2 {
     display: flex;
     /* width: 51rem; */
 }
 
-@media (max-width:834px) {
+@media (max-width:1024px) {
     .katka-description-2 {
         width: 100vw;
+        height: 43rem;
+    }
+}
+
+@media (max-width: 414px) {
+    .katka-description-2 {
+        height: 60rem;
     }
 }
 
@@ -275,10 +368,18 @@ body {
     border-right: 1px solid black;
 }
 
-@media (max-width:834px) {
+@media (max-width:1024px) {
     .katka-description-fr {
         width: 50vw;
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
+}
+
+@media (max-width:414px) {
+    .katka-description-fr {
+        padding-left: 3.5rem;
+    }  
 }
 
 .katka-text {
@@ -290,6 +391,20 @@ body {
     text-align: left;
 }
 
+@media (max-width:1024px) {
+    .katka-text {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+}
+
+@media (max-width: 414px) {
+    .katka-text {
+        font-size: 4.5rem;
+        line-height: 5rem;
+    }
+}
+
 .safespace {
     font-family: PT Mono;
     font-size: 4rem;
@@ -299,6 +414,21 @@ body {
     text-align: left;
     letter-spacing: 0.2em;
     }
+
+@media (max-width:1024px) {
+    .safespace {
+        font-size: 10rem;
+        line-height: 10rem;
+        margin-bottom: 4rem;
+    }
+}
+
+@media (max-width: 414px) {
+    .safespace {
+        font-size: 15rem;
+        line-height: 17rem;
+    }
+}
 
 .katka-description-3 {
     display: flex;
@@ -313,7 +443,7 @@ body {
     color:  #001AFF;
 }
 
-@media (max-width:834px) {
+@media (max-width:1024px) {
     .katka-description-3 {
         display: none;
     }
@@ -344,13 +474,35 @@ body {
     /* border-right: 1px solid black; */
 }
 
+@media (max-width:1024px) {
+    .afisha {
+        max-width: 100vw;
+        width: 100vw;
+        padding-left: 0;
+        padding-top: 5rem;
+        padding-bottom: 15rem;
+    }
+}
+
 .description-afisha {
     display: flex;
 }
 
-@media (max-width:834px) {
+@media (max-width:1024px) {
     .description-afisha{
-       display: block; 
+       display: block;
+    }
+}
+
+@media (max-width: 1024px) {
+    .afisha-title {
+        padding-left: 3rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .afisha-list {
+        padding-left: 3rem;
     }
 }
 
@@ -360,8 +512,19 @@ body {
     margin-right: 2rem;
 }
 
+.afisha-images:last-child {
+    margin-right: 0;
+}
+
 .afisha-image {
     display: flex;
     width: 32rem;
     margin-right: 4rem;
+}
+
+@media (max-width:1024px) {
+    .afisha-image {
+        width: 100rem;
+        margin-right: 10rem;
+    }
 }
